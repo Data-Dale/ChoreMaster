@@ -1,0 +1,13 @@
+{
+    "name": "chore-gamification-app",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "start": "node backend/server.js",
+        "client": "cd frontend && npm start",
+        "dev": "concurrently \"npm run start\" \"npm run client\""
+    },
+    "dependencies": {
+        "concurrently": "^5.3.0"
+    }
+}
