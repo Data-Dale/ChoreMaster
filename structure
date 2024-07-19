@@ -1,0 +1,43 @@
+chore-gamification-app/
+├── backend/
+│   ├── controllers/
+│   │   ├── authController.js
+│   │   ├── choreController.js
+│   │   ├── questController.js
+│   │   ├── rewardController.js
+│   ├── models/
+│   │   ├── User.js
+│   │   ├── Chore.js
+│   │   ├── Quest.js
+│   │   ├── Reward.js
+│   ├── routes/
+│   │   ├── authRoutes.js
+│   │   ├── choreRoutes.js
+│   │   ├── questRoutes.js
+│   │   ├── rewardRoutes.js
+│   ├── app.js
+│   ├── config.js
+│   └── server.js
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── assets/
+│   │   ├── components/
+│   │   │   ├── Avatar.js
+│   │   │   ├── ChoreList.js
+│   │   │   ├── Home.js
+│   │   │   ├── Leaderboard.js
+│   │   │   ├── NavBar.js
+│   │   │   ├── Profile.js
+│   │   │   ├── QuestBoard.js
+│   │   │   ├── RewardStore.js
+│   │   │   ├── TimedChallenge.js
+│   │   ├── contexts/
+│   │   │   ├── AuthContext.js
+│   │   ├── services/
+│   │   │   ├── api.js
+│   │   ├── App.js
+│   │   ├── index.js
+│   ├── package.json
+├── README.md
+└── package.json
